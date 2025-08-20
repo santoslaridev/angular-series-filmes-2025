@@ -67,7 +67,8 @@
               "buildTarget": "series_filmes:build:production"
             },
             "development": {
-              "buildTarget": "series_filmes:build:development"
+              "buildTarget": "series_filmes:build:development",
+              "disableHostCheck": true
             }
           },
           "defaultConfiguration": "development"
@@ -98,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "eb857b26-a047-4791-9860-ffbd3698e2ca"
   }
 }
